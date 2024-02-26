@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i phone 15</title>
+    <script src="https://kit.fontawesome.com/6d37effa6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <div class="phone">
+        
+
+        
+        <div class="display">
+            <ul class="icon">
+                <li><i class="fa-solid fa-phone-volume fa-shake"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-solid fa-wifi"></i></li>
+                <li><i class="fa-solid fa-signal"></i></li>
+                <li><i class="fa-solid fa-battery-half fa-beat-fade"></i> </li>
+            </ul>
+            
+            <div class="header"></div>
+            <div class="time" function= "time()">
+                    <span id="hrs">9</span>
+                    <span id="min">00</span>
+                </div>
+
+	<div class="music">
+	    <img src="music.png">
+	</div>
+                
+            
+            <div class="gsearch" onclick="google()">
+                <h3>Google</h3>
+            </div>
+            <ul class="app">
+           <li> <button id="sptfy" onclick="app()"><i class="fa-brands fa-spotify" style="color: #52d049;"></i></button><li></li>
+           <li> <button onclick="insta()"><i class="fa-brands fa-instagram" style="color: #c414db;"></i></li>
+           <li> <button><i class="fa-brands fa-facebook" style="color: #1465f0;"></i></button><li></li>
+           <li> <button><i class="fa-brands fa-whatsapp" style="color: #1fec04;"></i></button></li>
+           <li> <button onclick="yt()"><i class="fa-brands fa-youtube" style="color: #ec091f;"></i></button></li>
+        </ul>
+        <ul class="app2">
+            <li> <button><i class="fa-solid fa-phone" style="color: #2c74f2;"></i></button><li></li>
+            <li> <button><i class="fa-solid fa-message" style="color: #387df5;"></i></button><li></li>
+            <li> <button><i class="fa-solid fa-address-book" style="color: #2d73eb;"></i></button><li></li>
+            <li> <button><i class="fa-solid fa-square-envelope" style="color: #4584f2;"></i></button><li></li>
+            <li> <button><i class="fa-brands fa-app-store-ios" style="color: #4683ec;"></i></button><li></li>
+         </ul>
+              <div class="navigat"></div>
+
+        </div>
+       
+    </div>
+
+
+
+		<div class="display2">
+
+            <div class="box">
+                <div class="flash" style="margin-left: 100px; margin-top: 8px;"></div>
+                <div class="cam" style="margin-left: 5px; margin-top: -35px;"></div>
+                <div class="cam" style="margin-left: 79px; margin-top: -24px;"></div>
+                <div class="cam" style="margin-top: -24px;margin-left: 5px"></div>
+                <div class="sensor" style="margin-top: -28px;margin-left: 103px"></div>
+            
+            </div>
+
+            <i class="fa-brands fa-apple" style="color: #efeff1;"></i>
+
+            <span class="name">Ⓓ</span>
+                 </div>
+		
+    <script>
+   
+     
+        
+        var hrs = document.getElementById("hrs");
+        var min = document.getElementById("min");
+        hrs = hrs>12? hrs % 12 : hrs;
+        
+       
+        setInterval(()=>{
+            var ctime = new Date()
+            hrs.innerHTML =  ctime.getHours();
+            min.innerHTML = (ctime.getMinutes()<10?"0":"") +  ctime.getMinutes();
+        },1000)
+    
+        function app(){
+         window.location.assign("file:///Z:/HTML/my%20spotify%20acc.html");
+	}
+       
+	function google(){
+	
+	 window.location.assign("https://www.google.com/");
+         
+	}
+
+	function yt(){
+         window.location.assign("https://www.youtube.com/");
+	}
+
+	function insta(){
+         window.location.assign("file:///Z:/HTML/login&sign%20up/log%20in/login.html");
+	}
+            
+            
+     
+     
+
+    </script>
+</body>
+</html>

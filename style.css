@@ -1,0 +1,182 @@
+body{
+    background-color: white;
+display:flex;
+}
+
+.header{
+    height: 25px;
+    width: 120px;
+    border: none;
+    border-radius: 25px;
+    margin: 0px auto;
+    background-color: black;
+    box-shadow: 0px 1px 15px black;
+}
+.display{
+  height: 600px;
+  width: 330px;
+  border:8px solid black;
+  border-radius: 39px;
+  background-image: url(https://w0.peakpx.com/wallpaper/730/501/HD-wallpaper-iphone-14-pro-thumbnail.jpg);
+ margin: 10% 500px;
+ box-shadow: 2px 2px 10px black;
+ background-repeat: no-repeat;
+ display: block;
+transition: 100ms all;
+  
+}
+
+.display2{
+  height: 600px;
+  width: 330px;
+  border:8px solid black;
+  border-radius: 39px;
+  margin-left: -470px;
+  margin-top: 133px;
+  background-color: #B8AFE6;
+ box-shadow: 2px 2px 10px black;
+ background-repeat: no-repeat;
+
+}
+.box{
+height: 150px;
+width: 150px;
+border: 6px solid black;
+box-shadow: 3px 3px 10px black;
+margin: 10px;
+border-radius: 35px;
+}
+.cam{
+height: 57px;
+width: 57px;
+border: 5px solid #B8AFE6;
+border-radius: 50%;
+box-shadow: 2px 2px 10px black;
+background-color: black;
+}
+.flash{
+
+  height: 20px;
+  width: 20px;
+  border: 5px solid lightgray;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px black;
+  background-color: white;
+
+}
+.sensor{
+  height: 16px;
+  width: 16px;
+  border: 5px solid black;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px black;
+  background-color: black;
+}
+.fa-apple{
+font-size: 90px;
+margin: 30% 130px;
+
+}
+.name{
+color: black;
+font-size: 22px;
+margin: 0px 160px;
+margin-top: 10px;
+
+letter-spacing: 3px;
+font-weight: bold;
+}
+.navigat{
+    height: 0px;
+    width: 120px;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin: 19px auto;
+    
+    
+}
+.display .icon{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 1px 0px;
+padding-left: 52%;
+}
+.display li{
+list-style: none;
+color: white;
+padding:3px 5px;
+font-size: 13px;
+}
+.time{
+margin:10px 38%;
+
+}
+.time span{
+color: white;
+padding-left: 90px;
+padding: 20%;
+font-size: 45px;
+font-family: sans-serif;
+ }
+ 
+ 
+ button{
+font-size: 30px;
+border-radius: 32px;
+border:2px black;
+margin: 2px;
+cursor:pointer;
+
+ }
+button:hover{
+ box-shadow: 0px 0px 10px white;
+transition: 100ms all;
+  }
+
+
+.app{
+display: flex;
+padding-left:13px;
+margin-top: 12%;
+
+}
+.app2{
+background-color:#F8F3F2 ;
+display: flex;
+padding: 7px;
+border-radius: 42px;
+
+
+}
+.gsearch{
+height:35px;
+width:230px;
+margin:17% auto;
+margin-bottom:10px;
+background-color:white;
+border-radius:18px;
+
+}
+.gsearch h3{
+color:black;
+font-size:20px;
+font-family:sans-serif;
+padding:5px 8px;
+cursor:pointer;
+}
+
+
+.gsearch:hover{
+
+transition: 100ms all;
+background-color:#E5E0DF;
+}
+
+
+.music img{
+height:130px;
+width:250px;
+margin:5px 40px;
+
+}
